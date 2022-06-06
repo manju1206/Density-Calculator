@@ -1,0 +1,28 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: aquamarine;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    position: absolute;
+    top: 45%;
+    left: -auto;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 15px;
+    background: aquamarine;
+    box-shadow: rgb(93, 66, 06) 0px 16px 26px -12px;
+}
+
+button {
+    font-size: 25px;
+}
+
+text {
+    font-size: 40px;
+}

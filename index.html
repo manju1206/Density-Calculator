@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <title>Density calculator by Javascript</title>
+        <link rel = "stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="conatiner">
+            <p>MASS IN KG :
+                <input type="text" id="m"><span id="m_error"></span>
+            </p>
+
+            <p>Volume IN M3 :
+                <input type="text" id="v">
+            </p>
+
+            <button type="button" onclick="cal()">Density</button><br><br>
+            The calculated density <br>is in kilogram/cubic meter: <p id="output"></p>
+        </div>
+    </body>
+</html>
